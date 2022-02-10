@@ -1,0 +1,105 @@
+/*CSS document*/
+
+body {
+    background: #FFFEFC;
+    
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+/*hyperlink style*/
+a:link {
+  text-decoration: none;
+}
+
+
+/*Article titles*/
+h3 {
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #242625;
+   
+}
+
+/* main story titles*/
+h2 {
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2em;
+    color: #242625;
+    
+}
+
+/*Body text*/
+p {
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1em;
+    color: #242625;
+   
+}
+
+/*captions*/
+figcaption {
+    font-family: poppins, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: .75em;
+    color: #242625;   
+}
+
+
+/*Naviagation*/
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 1em;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+nav ul li a {
+    color: #00A15E;
+    text-decoration: none; 
+}
+
+nav ul li a:hover {
+    color: #242625;
+}
+
+/*Footer*/
+footer {
+    margin-top: 5em;
+    font-style: italic;
+}
+
+footer p {
+    text-align: center;
+}
+
