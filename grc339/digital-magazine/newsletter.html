@@ -1,0 +1,83 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="stylesheet" href="https://use.typekit.net/jbo2emx.css">
+            <title>New Wave</title> <!-- ★ Please include a proper title.-->
+
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />
+            
+        </head>	
+
+        <body>
+            <div class="container">
+                <header>
+                    <h1> <a href="index.html"> <img src="logo.png" alt="Logo of New Wave."> </a> </h1> <!-- ★ Please use a proper alt attribute.-->
+                    
+                    <nav>
+                        <ul> <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Articles</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                
+                <main>
+                    <section class="newsletterpic">
+                        <figure>
+                            <img src="newsletter.jpg" alt="Illustration of stars and planets.">
+                        </figure>
+                    </section>
+                    
+                
+                    <form>
+                        <section class="personal-info">
+                            <h3>Subscribe!</h3>
+                            <ul>
+                                <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name" /></li>
+                                <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="confirmation email" /></li>
+                                <li><label for="phone">Phone:</label> <input type="tel" name="phone" id="phone" placeholder="your phone number" /></li>
+                            </ul>
+                        </section>
+                
+                        <section class="interests">
+                            <h3>What type of content are you interested in?</h3>
+                            <ul>
+                                <li><input type="checkbox" id="fashion-news" value="fashion-news" /> <label for="fashion-news">Fashion News</label></li>
+                                <li><input type="checkbox" id="photo-content" value="photo-content" /> <label for="photo-content">Photo Content</label></li>
+                                <li><input type="checkbox" id="video-content" value="video-content" /> <label for="video-content">Video Content</label></li>
+                                <li><input type="checkbox" id="biographies" value="biographies" /> <label for="biographies">Biographies</label></li>
+                            </ul>
+                            
+                            <h3>How did you hear about us?</h3>
+                            <ul>
+                                <li><input type="checkbox" id="instagram" value="instagram" /> <label for="instagram">Instagram</label></li>
+                                <li><input type="checkbox" id="twitter" value="twitter" /> <label for="twitter">Twitter</label></li>
+                                <li><input type="checkbox" id="tiktok" value="tiktok" /> <label for="tiktok">TikTok</label></li>
+                                <li><input type="checkbox" id="youtube" value="youtube" /> <label for="youtube">Youtube</label></li>
+                            </ul>
+                        </section>
+                        
+                        <section><label for="notes">Anything else?</label><textarea id="notes" name="notes"></textarea></section>
+                        
+                        <section>
+                            <button type="submit">Submit</button>
+                        </section>
+                    </form>
+                </main>
+                
+                <footer>
+                    <p> All rights reserved.</p>
+                </footer>     
+            </div>
+        </body>
+    </html>
+
+
