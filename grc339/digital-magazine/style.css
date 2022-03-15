@@ -238,6 +238,13 @@ p {
     
 
 /*newsletter form*/
+
+section.personal-info img{
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+
 label {
     font-family: poppins, sans-serif;
     font-style: normal;
